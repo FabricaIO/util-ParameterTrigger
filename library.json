@@ -1,0 +1,25 @@
+{
+	"name": "Fabrica-IO Utility Parameter Trigger",
+	"version": "0.5.0",
+	"description": "Triggers actions on a sensor parameter",
+	"keywords": "Fabrica-IO, utility, data",
+	"repository":
+	{
+	  "type": "git",
+	  "url": "https://github.com/FabricaIO/util-ParameterTrigger.git"
+	},
+	"authors":
+	[
+	  {
+		"name": "Sam Groveman",
+		"email": "SamGroveman@outlook.com",
+		"url": "https://github.com/FabricaIO"
+	  }
+	],
+	"dependencies": {
+	  },
+	"license": "GPLv3",
+	"homepage": "https://github.com/FabricaIO",
+	"frameworks": "arduino",
+	"platforms": "*"
+  }
