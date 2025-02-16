@@ -1,5 +1,5 @@
 {
-	"name": "Fabrica-IO Utility Parameter Trigger",
+	"name": "util-ParameterTrigger",
 	"version": "0.5.0",
 	"description": "Triggers actions on a sensor parameter",
 	"keywords": "Fabrica-IO, utility, data",
