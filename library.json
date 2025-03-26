@@ -1,7 +1,7 @@
 {
 	"name": "util-ParameterTrigger",
 	"version": "0.5.0",
-	"description": "Triggers actions on a sensor parameter",
+	"description": "Allows for easy reading of sensor parameter values",
 	"keywords": "Fabrica-IO, utility, data",
 	"repository":
 	{

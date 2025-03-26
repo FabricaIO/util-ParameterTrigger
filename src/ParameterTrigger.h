@@ -8,6 +8,7 @@
 #include <Arduino.h>
 #include <SensorManager.h>
 #include <vector>
+#include <ArduinoJson.h>
 #include <map>
 
 /// @brief Allows for retrieval of a particular set of parameters' value
@@ -23,4 +24,6 @@ class ParameterTrigger {
 		} parameter_config;
 
 		std::map<String, double> getParameterValues();
+
+		std::vector<String> listAllParameters();
 };
