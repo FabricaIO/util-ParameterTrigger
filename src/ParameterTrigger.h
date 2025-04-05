@@ -16,14 +16,14 @@ class ParameterTrigger {
 	public:
 		/// @brief Holds parameter configuration
 		struct {			
-			/// @brief A set of sensor paramater names to use 
-			std::vector<String> Parameters;
+			/// @brief A set of sensor names and paramater names to use 
+			std::vector<std::pair<String, String>> Parameters;
 
 			/// @brief Whether to enable auto triggering or not
 			bool Enabled;			
 		} parameter_config;
 
-		std::map<String, double> getParameterValues();
+		std::map<String, std::map<String, double>> getParameterValues();
 
-		std::vector<String> listAllParameters();
+		std::map<String, std::vector<String>> listAllParameters();
 };
